@@ -10,24 +10,26 @@
     <title>Ai landing page</title>
 </head>
 <body>
-    <div id="sidebar">
-        <ul>
-            <i class="fa-solid fa-xmark" id="xmark"></i>
-            <li><a href="#">home</a></li>
-            <li><a href="#">partners</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">features</a></li>
-        </ul>
-    </div>
+    <canvas id="particle-bg"></canvas>
+    
     <main>
         <header>
             <h1 class="logo">logo</h1>
             <i  id="bars" class="fa-solid fa-bars"></i>
         </header>
+        <div id="sidebar">
+            <ul>
+                <i class="fa-solid fa-xmark" id="xmark"></i>
+                <li><a href="#">home</a></li>
+                <li><a href="#">partners</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">features</a></li>
+            </ul>
+        </div>
         <div class="main-container">
             <div class="main-content">
                 <div class="main-text-section">
-                    <h1 class="main-heading">you ai powerd <span class="main-heading-span">design</span> assistant</h1>
+                    <h1 class="main-heading">your ai powered <span class="main-heading-span">design</span> assistant</h1>
                     <p class="main-description-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nesciunt perspiciatis ut odio, aliquid commodi porro. Soluta sapiente excepturi harum enim, tenetur adipisci quia?</p>
                     <div class="main-btns">
                         <button class="get-started-btn">get started</button>
@@ -83,5 +85,44 @@
             
         </div>
     </div>
+
+    <section class="features">
+        <div class="features-container">
+            <div class="feature">
+                <div class="feature-text-sec">
+                    <h1 class="feature-heading">AI-powered design</h1>
+                    <p class="feature-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, sed ipsum! Dicta, sunt vitae?.</p>
+                    <button class="feature-btn">get started </button>
+                </div>
+                <div class="feature-img-sec">
+                    <img src="images/feature.jpg" alt="ai feature picture">
+                </div>
+            </div>
+
+            <div class="feature">
+           
+                <div class="feature-img-sec" id="second-feature-img-sec">
+                    <img src="images/feature 2.jpg" id="feature-img-2" alt="ai feature picture">
+                </div>
+
+                <div class="feature-text-sec" id="second-feature-text-sec">
+                    <h1 class="feature-heading">AI-powered design</h1>
+                    <p class="feature-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, sed ipsum! Dicta, sunt vitae?.</p>
+                    <button class="feature-btn">get started </button>
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="feature-text-sec">
+                    <h1 class="feature-heading">AI-powered design</h1>
+                    <p class="feature-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, sed ipsum! Dicta, sunt vitae?.</p>
+                    <button class="feature-btn">get started </button>
+                </div>
+                <div class="feature-img-sec">
+                    <img src="images/feature 3.jpg" alt="ai feature picture">
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
